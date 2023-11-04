@@ -188,12 +188,15 @@ body{
     *{
         max-width: 100%;
         height: auto;
-        transform: scale(0.9);
-        margin-left: -278px;
+        transform: scale(0.93);
+        margin-left: -293px;
+    }
+    #login{
+        margin-top: 115px;
     }
     #logo{
         margin-left: 778px;
-        margin-top: 160px;
+        margin-top: 70px;
     }
     .login-text{
         margin-left: 0px;
@@ -201,6 +204,7 @@ body{
     }
     .security-eye{
         margin-left: 930px;
+        margin-top: 315px;
     }
 }
 @media screen and (min-width:362px) and (max-width: 768px) {

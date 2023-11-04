@@ -15,7 +15,7 @@ body{
     opacity: 1;
     text-align: center;
     margin-top: 200px;
-    margin-left: 770px;
+    margin-left: 655px;
     
 }
 
@@ -24,7 +24,7 @@ body{
     width: 130px;
     border: 3px solid white;
     margin-top: 130px;
-    margin-left: 960px;
+    margin-left: 845px;
     z-index: 1;
     position: absolute;
     border-radius: 100px;
@@ -68,7 +68,7 @@ body{
 /* Ajustando os olhos de segurança */
 .security-eye{
     position: absolute;
-    margin-left: 1160px;
+    margin-left: 1045px;
     margin-top: 402px;
     width: 39px;
     height: 39px;

@@ -25,7 +25,7 @@ body{
     border: 3px solid white;
     margin-top: 130px;
     margin-left: 845px;
-    z-index: 1;
+    z-index: 1; 
     position: absolute;
     border-radius: 100px;
 }
@@ -184,34 +184,38 @@ body{
 }
 
 /* Deixando o site responsivo */
-@media screen and (max-width:1248px) and (min-width:992px) {
-    body{
-        margin-left: -305px;
+@media screen and (max-width: 768px) {
+    /* Estilos para telas menores (exemplo: smartphones) */
+    *{
+        max-width: 100%;
+        height: auto;
+        transform: scale(0.9);
+        margin-left: -275px;
     }
-}
-@media screen and (max-width:992px) and (min-width:768px){
-    body{
-        margin-left: -445px;
+    .login-text{
+    
+        margin-left: 20px;
     }
-}
-
-@media screen and (max-width:768px) and (min-width:600px){
-    body{
-        margin-left: -470px;
+    .buttons{
+        margin-left: -170px;
     }
-}
-@media screen and (max-width:600px) and (min-width:500px){
-    body{
-        margin-left: -466px;
+    #email{
+        margin-top: 130px;
     }
-}
-@media screen and (max-width:500px) and (min-width:400px){
-    body{
-        margin-left:-500px;
+    .security-eye{
+        margin-left: 550px;
     }
-}
-@media screen and (max-width:400px) and (min-width:0px){
-    body{
-        margin-left: -580px;
+    #logo{
+        margin-left: 800px;
     }
-}
+  }
+  
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para telas médias (exemplo: tablets) */
+    *{
+        max-width: 100%;
+        height: auto;
+        margin-left: -245px;
+    }
+  }
+  

@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wiki Site 29</title>
-    
+    <title>Login</title>
+
+    <!-- Setando o arquivo CSS -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <a href="../login/login.html">clique em mim</a>
+    
+    <!-- Definindo imagens -->
+    <img src="./img/site29logo.png" alt="" id="logo">
+    <img src="./img/closed_eye.png" id="closed-eye" class="security-eye" alt="">
+    <img src="./img/opened_eye.png" id="opened-eye" class="security-eye" alt="">
+    <!-- Criando a div de login -->
+    <div id="login">
+        
+        <!-- Definindo os campos de texto de e-mail e senha-->
+        <input type="text" name="" id="email" class="login-text"placeholder="E-mail:">
+        
+        <input type="text" name="" id="password" class="login-text" placeholder="Senha:">
+        <!-- Definindo os botões-->
+        <input type="button" value="Entrar" id="login-button" class="buttons">
+        <input type="button" value="Registrar" id="register-button" class="buttons">
+        <!-- Definindo a mensagem de erro -->
+        <p id="error">E-mail ou senha incorretos!</p>
+
+    </div>
+    
+        
 </body>
-<script type='module' src="./scripts/script.js"></script>
+    <!-- Setando o arquivo JavaScript -->
+    <script type="module" src="./scripts/script.js"></script>
+ 
 </html>

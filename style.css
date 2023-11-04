@@ -24,7 +24,7 @@ body{
     width: 130px;
     border: 3px solid white;
     margin-top: 130px;
-    margin-left: 845px;
+    margin-left: 840px;
     z-index: 1; 
     position: absolute;
     border-radius: 100px;
@@ -184,7 +184,26 @@ body{
 }
 
 /* Deixando o site responsivo */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 361px){
+    *{
+        max-width: 100%;
+        height: auto;
+        transform: scale(0.9);
+        margin-left: -278px;
+    }
+    #logo{
+        margin-left: 778px;
+        margin-top: 160px;
+    }
+    .login-text{
+        margin-left: 0px;
+        transform: scale(0.8);
+    }
+    .security-eye{
+        margin-left: 930px;
+    }
+}
+@media screen and (min-width:362px) and (max-width: 768px) {
     /* Estilos para telas menores (exemplo: smartphones) */
     *{
         max-width: 100%;
